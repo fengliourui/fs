@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:id="@+id/kqzk"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity = "center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="空气质量"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/kqText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity = "center"
+            android:layout_marginTop="25dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pm"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="pm2.5"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/pmText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tx"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="主要污染物"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/txText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
